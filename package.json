@@ -1,0 +1,17 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "build:clean": "del-cli dist/",
+    "build:dist": "parcel build src/index.html --no-content-hash --no-minify --no-source-maps --public-url ./",
+    "build": "npm run build:clean && npm run build:dist"
+  },
+  "devDependencies": {
+    "sass": "^1.26.5",
+    "typescript": "^3.9.3",
+    "del-cli": "^3.0.1"
+  }
+}
