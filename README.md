@@ -1,3 +1,7 @@
+## template
+- typescript
+- scss
+- parcel build
 
 ## parcel
 官网：https://parceljs.org/cli.html
